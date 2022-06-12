@@ -337,6 +337,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 5
+--- !u!114 &746297439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746297436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d1055bc3ed24a48bb32d1192e38f79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laser: {fileID: 5836663450460364732, guid: 6c936539c89f34314a098fba29b94515, type: 3}
+  fireFreq: 0.2
 --- !u!1 &841452764
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7214904907531540114, guid: 69af2f6202aaf486aa8016588b0acefc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 7214904907531540114, guid: 69af2f6202aaf486aa8016588b0acefc, type: 3}
       propertyPath: m_LocalRotation.w
