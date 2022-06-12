@@ -16,10 +16,10 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(movex, 0, movez);
         Vector3 clampedPosition = transform.position;
 
-        clampedPosition.x = Mathf.Clamp(clampedPosition.x, -3.8f, 3.8f);
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, -4.7f, 4.7f);
         transform.position = clampedPosition;
 
-        clampedPosition.z = Mathf.Clamp(clampedPosition.z, 0.55f, 4.4f);
+        clampedPosition.z = Mathf.Clamp(clampedPosition.z, -2.5f, 2.5f);
         transform.position = clampedPosition;
     }
 }

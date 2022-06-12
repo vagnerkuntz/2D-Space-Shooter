@@ -20,7 +20,7 @@ public class LaserMovement : MonoBehaviour
         transform.Translate(0, 0, movez);
         Vector3 position = transform.position;
 
-        if (position.z > 4.9 || position.z < -4.0) {
+        if ((position.z > 4.9) || (position.z < -4.0)) {
             Destroy(gameObject);
         }
     }
