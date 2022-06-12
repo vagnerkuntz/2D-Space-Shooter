@@ -17,7 +17,6 @@ public class Enemy : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider col) {
-        Debug.Log(col);
         if (col.gameObject.tag == "Laser") {
             Destroy(col.gameObject);
             Destroy(gameObject);
