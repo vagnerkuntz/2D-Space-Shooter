@@ -5,7 +5,7 @@ using UnityEngine;
 public class BackgroundScroll : MonoBehaviour {
 
     // Scroll main texture based on time
-    public float scrollSpeed = 0.1f;
+    public float scrollSpeed = -0.1f;
     Renderer rend;
 
     // Start is called before the first frame update
