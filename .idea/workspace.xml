@@ -6,11 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3ba82c7c-5cc3-43fc-9343-7dc480546812" name="Changes" comment="chore: add existing project files to git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Particles (Sprites)/Projectile Thin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Particles (Sprites)/Projectile Thin.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Prefabs/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Prefabs/Explosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Prefabs/Muzzle Flash.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Prefabs/Muzzle Flash.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Asteroids/Asteroid 6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Background Elements/Dust and Nebulae/Materials/EM Cloud 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Background Elements/Dust and Nebulae/Materials/EM Cloud 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Particles (Sprites)/Projectile Sharp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Particles (Sprites)/Projectile Sharp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/Laser.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaserMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LaserMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +80,7 @@
       <updated>1655049406635</updated>
       <workItem from="1655049407942" duration="554000" />
       <workItem from="1655050062446" duration="3859000" />
-      <workItem from="1655054226893" duration="12978000" />
+      <workItem from="1655054226893" duration="14954000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add gitignore">
       <created>1655049515667</created>
