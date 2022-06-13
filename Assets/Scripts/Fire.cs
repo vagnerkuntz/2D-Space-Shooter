@@ -7,6 +7,7 @@ public class Fire : MonoBehaviour
     public GameObject laser;
     public float fireFreq = 1f;
     private float lastShoot;
+    public int laserType = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -19,11 +20,24 @@ public class Fire : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && (Time.time > lastShoot + fireFreq)) {
             Shoot();
+            StartCoroutine(Shoot());
         }
     }
 
-    void Shoot() {
+    IEnumerator Shoot() {
         lastShoot = Time.time;
-        Instantiate(laser, transform.position, transform.rotation);
+        if (laserType == 0) {
+            Instantiate(laser, transform.position, transform.rotation);
+        } else if (laserType == 1) {
+            Instantiate(laser, transform.position, Quaternion.Euler(0, -20, 0));
+            yield return new WaitForSeconds(0.1f);
+            Instantiate(laser, transform.position, transform.rotation);
+            yield return new WaitForSeconds(0.1f);
+            Instantiate(laser, transform.position, Quaternion.Euler(0, 20, 0));
+        }
+    }
+
+    public void PowerupLaser() {
+        Debug.Log("powerup");
     }
 }
