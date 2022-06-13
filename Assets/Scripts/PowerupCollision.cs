@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class PowerupCollision : MonoBehaviour
 {
-    Fire fireClass = new Fire();
     public GameObject powerUpSound;
 
     public void OnTriggerEnter(Collider col) {
         if (col.gameObject.tag == "Player") {
-            fireClass.PowerupLaser();
+            GameObject.Find("Player").GetComponent<Fire>().PowerupLaser();
             Instantiate(powerUpSound, transform.position, transform.rotation);
             Destroy(gameObject);
         }
