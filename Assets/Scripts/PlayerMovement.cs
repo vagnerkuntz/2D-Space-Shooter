@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     public float playerSpeed = 5f;
 
-    // Update is called once per frame
     void Update()
     {
         float movex = Input.GetAxisRaw("Horizontal") * Time.deltaTime * playerSpeed;

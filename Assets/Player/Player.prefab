@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8518810276447060940}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 504285377889632238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0.62}
-  m_LocalScale: {x: 1.0354, y: 1.0354, z: 1.0354}
+  m_LocalScale: {x: 1.8113527, y: 1.0354, z: 1.0354}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1903260950097096861}
@@ -63,8 +63,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.15
-  m_Height: 0.7
+  m_Radius: 0.3
+  m_Height: 1.15
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &746297438
@@ -94,6 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 5836663450460364732, guid: 6c936539c89f34314a098fba29b94515, type: 3}
   fireFreq: 0.2
+  laserType: 0
 --- !u!114 &8518810276447060940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,6 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b42b7c685902452da903c713cf93b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 1791778266131671650, guid: cd8c6c42cc5a840449e2ce4a9f11af09, type: 3}
 --- !u!1 &1903260950097096862
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +134,7 @@ Transform:
   m_GameObject: {fileID: 1903260950097096862}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6983, y: 1.6983, z: 1.6983}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7214904907531540114}

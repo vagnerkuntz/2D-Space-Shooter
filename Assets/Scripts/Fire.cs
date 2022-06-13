@@ -10,13 +10,6 @@ public class Fire : MonoBehaviour
     public int laserType = 0;
     private float laserTimer;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && (Time.time > lastShoot + fireFreq)) {

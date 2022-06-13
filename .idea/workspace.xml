@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3ba82c7c-5cc3-43fc-9343-7dc480546812" name="Changes" comment="chore: add existing project files to git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Background Elements/Dust and Nebulae/Nebula 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Background Elements/Dust and Nebulae/Nebula 2.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BackgroundScroll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundScroll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy1Fire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy1Fire.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy1Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy1Movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerupCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerupCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaserMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LaserMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,7 @@
       <workItem from="1655049407942" duration="554000" />
       <workItem from="1655050062446" duration="3859000" />
       <workItem from="1655054226893" duration="31108000" />
-      <workItem from="1655126046662" duration="2742000" />
+      <workItem from="1655126046662" duration="13612000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add gitignore">
       <created>1655049515667</created>
