@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public GameObject explosion;
-    
+
     // Start is called before the first frame update
     void Start()
     {
