@@ -5,11 +5,17 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public GameObject explosion;
+    public float invinceDelay = 2f;
+    private float spawnTime;
+
+    void Awake() {
+        spawnTime = Time.time;
+    }
 
     private void OnTriggerEnter(Collider col) {
-        if (col.gameObject.tag == "EnemyLaser") {
+        if ((col.gameObject.tag == "EnemyLaser") && (Time.time > spawnTime + invinceDelay)) {
             int totalLives = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().lives -= 1;
-            if (totalLives > 0 && GameObject.FindGameObjectsWithTag("Player").Length > 0) {
+            if (totalLives > 0) {
                 StartCoroutine(GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().Respawn());
             }
             Instantiate(explosion, transform.position, transform.rotation);
