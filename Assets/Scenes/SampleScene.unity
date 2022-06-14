@@ -682,7 +682,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 3
+  score: 0
   player: {fileID: 504285377889632238, guid: 69af2f6202aaf486aa8016588b0acefc, type: 3}
+  gameOver: 0
+  guiSkin: {fileID: 11400000, guid: d90ee3bea7f1e479bbae552b886f9ab3, type: 2}
 --- !u!1001 &1903260950775797183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -700,15 +703,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7214904907531540114, guid: 69af2f6202aaf486aa8016588b0acefc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.004
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7214904907531540114, guid: 69af2f6202aaf486aa8016588b0acefc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7214904907531540114, guid: 69af2f6202aaf486aa8016588b0acefc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.192
+      value: -1.99
       objectReference: {fileID: 0}
     - target: {fileID: 7214904907531540114, guid: 69af2f6202aaf486aa8016588b0acefc, type: 3}
       propertyPath: m_LocalRotation.w

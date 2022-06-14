@@ -17,7 +17,10 @@ public class PlayerCollision : MonoBehaviour
             int totalLives = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().lives -= 1;
             if (totalLives > 0) {
                 StartCoroutine(GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().Respawn());
+            } else {
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().gameOver = true;
             }
+
             Instantiate(explosion, transform.position, transform.rotation);
             Destroy(col.gameObject);
             Destroy(gameObject);
