@@ -8,7 +8,7 @@ public class PowerupCollision : MonoBehaviour
 
     public void OnTriggerEnter(Collider col) {
         if (col.gameObject.tag == "Player") {
-            GameObject.Find("Player").GetComponent<Fire>().PowerupLaser();
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Fire>().PowerupLaser();
             Instantiate(powerUpSound, transform.position, transform.rotation);
             Destroy(gameObject);
         }

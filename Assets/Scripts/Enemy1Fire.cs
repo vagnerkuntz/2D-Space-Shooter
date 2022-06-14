@@ -11,7 +11,7 @@ public class Enemy1Fire : MonoBehaviour
 
     void Start()
     {
-        fireFreq *= Random.Range(0.8, 1.2);
+        fireFreq *= Random.Range(1.2f, 2.2f);
     }
 
     void FixedUpdate()

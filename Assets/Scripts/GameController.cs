@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     private int level;
     public int totalEnimies = 0;
     public GameObject[] enemies;
+    public GameObject powerUpPrefab;
 
     void Awake() {
         lives = 3;
@@ -47,8 +48,8 @@ public class GameController : MonoBehaviour
     }
 
     public IEnumerator Respawn() {
-        yield return new  WaitForSeconds(2);
         Instantiate(player, new Vector3(0f, 0f, -1.99f), transform.rotation);
+        yield return new WaitForSeconds(1);
     }
 
     void OnGUI() {
