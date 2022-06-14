@@ -13,7 +13,7 @@ public class PlayerCollision : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider col) {
-        if ((col.gameObject.tag == "EnemyLaser") && (Time.time > spawnTime + invinceDelay)) {
+        if ((col.gameObject.tag == "EnemyLaser") || (col.gameObject.tag == "Enemy") && (Time.time > spawnTime + invinceDelay)) {
             int totalLives = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().lives -= 1;
             if (totalLives > 0) {
                 StartCoroutine(GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().Respawn());
