@@ -6,10 +6,15 @@ public class Enemy1Fire : MonoBehaviour
 {
 
     public GameObject laserEnemy;
-    public float fireFreq = 0.5f;
+    public float fireFreq = 1f;
     private float lastShoot;
 
-    void Update()
+    void Start()
+    {
+        fireFreq *= Random.Range(0.8, 1.2);
+    }
+
+    void FixedUpdate()
     {
         if (Time.time > lastShoot + fireFreq) {
             Fire();

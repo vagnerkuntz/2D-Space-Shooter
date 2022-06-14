@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider col) {
         if (col.gameObject.tag == "Laser") {
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().totalEnimies -= 1;
             GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().score += points;
             Destroy(col.gameObject);
             Destroy(gameObject);
