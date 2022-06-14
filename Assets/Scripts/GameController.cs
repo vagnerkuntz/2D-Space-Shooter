@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
 
     void OnGUI() {
         GUI.skin = guiSkin;
-        GUI.Label(new Rect(Screen.width / 2 - 285, 0, 400, 100), "Pontos: " + score.ToString());
+        GUI.Label(new Rect(Screen.width / 2 - 370, 0, 400, 100), "Pontos: " + score.ToString());
 
         if (gameOver == true) {
             if (GUI.Button(new Rect(Screen.width / 2 - 140, 200, 300, 100), "RESTART")) {
